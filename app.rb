@@ -8,6 +8,6 @@ class App < Sinatra::Base
     @name.reverse
   end 
   
-  get '/'
+  get '/square/:number'
   
 end
