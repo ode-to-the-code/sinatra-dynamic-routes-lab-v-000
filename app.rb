@@ -8,4 +8,6 @@ class App < Sinatra::Base
     @name.reverse
   end 
   
+  get '/'
+  
 end
